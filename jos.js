@@ -1,3 +1,10 @@
+/*!
+ *  Sharrre.com - Make your sharing widget!
+ *  Version: beta 1.3.5
+ *  Author: Julien Hany
+ *  License: MIT http://en.wikipedia.org/wiki/MIT_License or GPLv2 http://en.wikipedia.org/wiki/GNU_General_Public_License
+ */
+
 ;(function ( $, window, document, undefined ) {
 
   /* Defaults
@@ -501,8 +508,9 @@
     }
     else{ //template by defaults
       $(this.element).html(
-                            '<div class="count-number">'+a+'</div><div class="count-label">Shares</div>' + 
-                            (this.options.title !== '' ? '<a class="share" href="#">' + this.options.title + '</a>' : '')
+                            '<div class="share-count"><a class="count" href="#">' + total + '</a>' + 
+                            (this.options.title !== '' ? '<a class="share" href="#">' + this.options.title + '</a>' : '') +
+                            '</div>'
                           );
     }
   };
