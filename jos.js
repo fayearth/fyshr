@@ -4,7 +4,7 @@
   ================================================== */
   var pluginName = 'sharrre',
   defaults = {
-    className: 'share-count',
+    className: 'sharrre',
     share: {
       googlePlus: false,
       facebook: false,
