@@ -2,7 +2,7 @@
 
   /* Defaults
   ================================================== */
-  var pluginName = 'mupzaxz',
+  var pluginName = 'sharrre',
   defaults = {
     className: 'share-count',
     share: {
