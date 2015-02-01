@@ -508,9 +508,8 @@
     }
     else{ //template by defaults
       $(this.element).html(
-                            '<div class="share-count"><a class="count" href="#">' + total + '</a>' + 
-                            (this.options.title !== '' ? '<a class="share" href="#">' + this.options.title + '</a>' : '') +
-                            '</div>'
+                            '<div class="count-number">'+a+'</div><div class="count-label">Shares</div>' + 
+                            (this.options.title !== '' ? '<a class="share" href="#">' + this.options.title + '</a>' : '')
                           );
     }
   };
