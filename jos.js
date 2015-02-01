@@ -502,8 +502,7 @@
     else{ //template by defaults
       $(this.element).html(
                             '<div class="count-number">'+a+'</div><div class="count-label">Shares</div>' + 
-                            (this.options.title !== '' ? '<a class="share" href="#">' + this.options.title + '</a>' : '') +
-                            '</div>'
+                            (this.options.title !== '' ? '<a class="share" href="#">' + this.options.title + '</a>' : '')
                           );
     }
   };
