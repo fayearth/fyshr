@@ -2,7 +2,7 @@
 
   /* Defaults
   ================================================== */
-  var pluginName = 'joss',
+  var pluginName = 'jossssss',
   defaults = {
     className: 'share-count',
     share: {
